@@ -1,4 +1,5 @@
 # Microphone-Kill
+This app lets you stop your microphone so that no other app can access the microphone.
 ![Screenshot_20210727-093638_Microphone_Kill](https://user-images.githubusercontent.com/55937301/127111862-1c463236-a3fc-4bfb-af45-529c368b4f94.png)
 ![Screenshot_20210727-093641_Microphone_Kill](https://user-images.githubusercontent.com/55937301/127111952-4324e7df-9758-4655-9e41-a8a1816ec876.png)
 ![Screenshot_20210727-093659_Google](https://user-images.githubusercontent.com/55937301/127112016-0eb58ca6-2adf-49ff-9d03-90f09d4042d2.png)
