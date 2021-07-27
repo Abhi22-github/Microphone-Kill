@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="false"
+        android:maxWidth="48dp"
+        android:maxHeight="48dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/checkWhitelist"
+        android:layout_toRightOf="@+id/appIcon"
+        android:maxLines="1"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/appPackage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/appName"
+        android:layout_alignBottom="@+id/appIcon"
+        android:layout_toRightOf="@+id/appIcon"
+        android:maxLines="1"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#909090"
+        android:textColorHint="#909090"
+        android:textColorLink="#909090" />
+
+    <CheckBox
+        android:id="@+id/checkWhitelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/appPackage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
